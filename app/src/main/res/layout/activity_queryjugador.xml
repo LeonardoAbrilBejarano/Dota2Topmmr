@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_queryjugador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@drawable/bg_mmr"
+    tools:context="com.example.leonardo.leonardoabril_dota2sqlitev3.Queryjugador">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="140dp"
+        android:text="Insertar Usuario"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tv1_name"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="90dp"
+        android:text="Nombre"
+        android:textColor="@color/white"/>
+    <EditText
+        android:id="@+id/et1_name"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv1_name"
+        android:layout_below="@id/title"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/tv2_mmr"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_below="@id/tv1_name"
+        android:text="MMR"
+        android:textColor="@color/white"/>
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+        android:id="@+id/seekbar_mmr"
+        rsb:max_value="9999"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv2_mmr"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:id="@+id/leftnumberseekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekbar_mmr"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/rightnumberseekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_below="@id/seekbar_mmr"
+        android:layout_toRightOf="@id/tv2_mmr"
+        android:layout_marginLeft="100dp"/>
+    <Spinner
+        android:id="@+id/sp_pais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/pais_unselected"
+        android:layout_marginTop="45dp"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/seekbar_mmr"
+        android:layout_toEndOf="@+id/tv2_mmr" />
+    <TextView
+        android:text="Pais"
+        android:layout_width="80dp"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:layout_marginLeft="90dp"
+        android:layout_below="@id/tv2_mmr"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Query"
+        android:textColor="@color/white"
+        android:layout_below="@id/sp_pais"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickQuery"/>
+
+
+</RelativeLayout>

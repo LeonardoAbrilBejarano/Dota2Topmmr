@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_paises">
+        <item name="xx">@string/XX</item>
+        <item name="xx">@string/all</item>
+        <item name="no">@string/no</item>
+        <item name="de">@string/de</item>
+        <item name="dk">@string/dk</item>
+        <item name="fr">@string/fr</item>
+        <item name="my">@string/my</item>
+        <item name="jo">@string/jo</item>
+        <item name="kr">@string/kr</item>
+        <item name="gr">@string/gr</item>
+        <item name="ru">@string/ru</item>
+        <item name="au">@string/au</item>
+        <item name="sk">@string/sk</item>
+        <item name="ua">@string/ua</item>
+        <item name="tr">@string/tr</item>
+        <item name="fi">@string/fi</item>
+        <item name="gb">@string/gb</item>
+        <item name="al">@string/al</item>
+        <item name="se">@string/se</item>
+        <item name="rs">@string/rs</item>
+        <item name="cn">@string/cn</item>
+        <item name="si">@string/si</item>
+        <item name="il">@string/il</item>
+        <item name="fo">@string/fo</item>
+        <item name="bt">@string/bt</item>
+        <item name="ee">@string/ee</item>
+        <item name="us">@string/us</item>
+        <item name="kz">@string/kz</item>
+        <item name="by">@string/by</item>
+        <item name="bg">@string/bg</item>
+        <item name="ro">@string/ro</item>
+        <item name="mn">@string/mn</item>
+        <item name="hr">@string/hr</item>
+        <item name="nl">@string/nl</item>
+        <item name="pl">@string/pl</item>
+        <item name="ge">@string/ge</item>
+        <item name="lt">@string/lt</item>
+        <item name="lk">@string/lk</item>
+        <item name="es">@string/es</item>
+    </string-array>
+</resources>

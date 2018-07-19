@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/addplayer"
+            android:title="Add a player to top 200" />
+        <item
+            android:id="@+id/removeplayer"
+            android:title="Remove a player from the top 200" />
+        <item
+            android:id="@+id/selectplayer"
+            android:title="Show the top 200" />
+        <item
+            android:id="@+id/queryplayer"
+            android:title="Show selected players with a query" />
+        <item
+            android:id="@+id/dbupdate"
+            android:title="Update database from real data" />
+        <item
+            android:id="@+id/cleanbd"
+            android:title="Remove all data from db" />
+    </group>
+
+</menu>
